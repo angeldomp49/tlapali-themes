@@ -4,7 +4,7 @@
     "@makechtec/tlapali_langs": "^1.0.0"
   },
   "name": "@makechtec/tlapali_themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "themes for tlapali",
   "main": "index.js",
   "devDependencies": {},

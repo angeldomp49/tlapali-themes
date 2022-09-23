@@ -1,6 +1,7 @@
 {
     "compilerOptions":{
-        "outDir": "./prebuild"
+        "outDir": "./prebuild",
+        "declaration": true
     },
     "files":[
         "src/index.ts",
