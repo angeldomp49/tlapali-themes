@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@makechtec/tlapali_dev": "^1.0.0",
+    "@makechtec/tlapali_dev": "^1.0.1",
     "@makechtec/tlapali_langs": "^1.0.0"
   },
   "name": "@makechtec/tlapali_themes",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "themes for tlapali",
   "main": "index.js",
   "devDependencies": {},

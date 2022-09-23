@@ -4,8 +4,9 @@ export const Makech: Theme = {
     name: "Makech",
     styleSets: [
         {
+            language: "java",
             rule: "class_declaration",
-            "styles": [
+            styles: [
                 "color: red;"
             ]
         }
