@@ -1,1 +1,1 @@
-"use strict";exports.__esModule=true;exports.Makech=void 0;exports.Makech={name:"Makech",styleSets:[{language:"java",rule:"class_declaration",styles:["color: red;"]}]};
+"use strict";exports.__esModule=true;exports.Makech=void 0;exports.Makech={name:"Makech",supportedLaguages:[{name:"java",styleSets:[{rule:"class_declaration",styles:["color: red;"]}]}]};
