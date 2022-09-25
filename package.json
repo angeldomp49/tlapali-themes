@@ -3,7 +3,7 @@
     "@makechtec/tlapali_dev": "^1.0.2"
   },
   "name": "@makechtec/tlapali_themes",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "themes for tlapali",
   "main": "index.js",
   "devDependencies": {
