@@ -2,33 +2,42 @@ import { Theme } from "@makechtec/tlapali_dev";
 
 const classStyles = [
     "color: #1c51c9;",
-    "font-family: Roboto;",
     "font-weight: bold;"
 ];
 
 const identifierStyles = [
-    "color: #2A058B;",
-    "font-weight: normal;"
+    "color: #3894c2;",
+    "font-weight: bold;"
 ];
 
 export const Makech: Theme = {
     name: "Makech",
     containerStyle: {
-        backgroundColor: "#f8fffe",
-        fontFamily: "Ubuntu",
-        color: "#48637b"
+        backgroundColor: "#fdfdfa",
+        fontFamily: "'Space Mono'",
+        color: "#48637b",
+        border: "2px solid #e0e7e6",
+        borderRadius: "5px",
+        maxWidth: "",
+        overflow: "scroll",
     },
     supportedLaguages: [
         {
             name: "java",
             keywordsStyle: [
-                "font-family: Poppins;",
                 "font-weight: bold;",
                 "font-style: italic;",
+                "color: #7238c2"
             ],
             styleSets: [
                 {
                     rule: "class_declaration",
+                    styles: [
+                        ...classStyles
+                    ]
+                },
+                {
+                    rule: "class_name",
                     styles: [
                         ...classStyles
                     ]
@@ -51,6 +60,12 @@ export const Makech: Theme = {
                         ...identifierStyles
                     ]
                 },
+                {
+                    rule: "curly_brackets",
+                    styles: [
+                        "color: #b28a0a"
+                    ]
+                }
             ]
         }
     ]
