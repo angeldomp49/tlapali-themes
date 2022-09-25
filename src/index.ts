@@ -1,22 +1,31 @@
 import { Theme } from "@makechtec/tlapali_dev";
 
 const classStyles = [
-    "color: #012A68;",
-    "font-family: roboto;",
+    "color: #1c51c9;",
+    "font-family: Roboto;",
     "font-weight: bold;"
 ];
 
 const identifierStyles = [
     "color: #2A058B;",
-    "font-family: roboto;",
     "font-weight: normal;"
 ];
 
 export const Makech: Theme = {
     name: "Makech",
+    containerStyle: {
+        backgroundColor: "#f8fffe",
+        fontFamily: "Ubuntu",
+        color: "#48637b"
+    },
     supportedLaguages: [
         {
             name: "java",
+            keywordsStyle: [
+                "font-family: Poppins",
+                "font-weight: bold",
+                "font-style: italic",
+            ],
             styleSets: [
                 {
                     rule: "class_declaration",
