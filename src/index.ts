@@ -22,9 +22,9 @@ export const Makech: Theme = {
         {
             name: "java",
             keywordsStyle: [
-                "font-family: Poppins",
-                "font-weight: bold",
-                "font-style: italic",
+                "font-family: Poppins;",
+                "font-weight: bold;",
+                "font-style: italic;",
             ],
             styleSets: [
                 {
